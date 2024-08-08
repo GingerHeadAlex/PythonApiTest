@@ -11,4 +11,4 @@ def test_check_phrase_len():
     phrase = input("Введите фразу: ")
     if len(phrase) == 0:
         print('')
-    assert len(phrase) < 15, f"Длина фразы {len(phrase)}. Введите фразу короче 15 символов"
+    assert len(phrase) < 15, f"Длина фразы {len(phrase)} символов. Введите фразу короче 15 символов"
